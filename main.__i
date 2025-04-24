@@ -1,0 +1,5 @@
+-c --cpu ARM7TDMI -g -O0 --apcs=interwork 
+-I C:\Users\pande\AppData\Local\Keil_v5\ARM\RV31\INC 
+-I C:\Users\pande\AppData\Local\Keil_v5\ARM\CMSIS\Include 
+-I C:\Users\pande\AppData\Local\Keil_v5\ARM\Inc\Philips 
+-o "main.o" --omf_browse "main.crf" --depend "main.d" "main.c"
